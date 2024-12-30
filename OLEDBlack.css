@@ -1,0 +1,99 @@
+/**
+ * @name OLED Black Enhanced
+ * @author Klee
+ * @version 1.0
+ * @description An enhanced Discord theme with OLED black background and high contrast elements
+ */
+
+:root {
+    --background-primary: #000000;
+    --background-secondary: #0a0a0a;
+    --background-tertiary: #121212;
+    --channeltextarea-background: #1a1a1a;
+    --text-normal: #ffffff;
+    --text-muted: #a0a0a0;
+    --header-primary: #ffffff;
+    --header-secondary: #b9bbbe;
+    --interactive-normal: #cccccc;
+    --interactive-hover: #ffffff;
+    --interactive-active: #ffffff;
+}
+
+body {
+    background-color: var(--background-primary);
+}
+
+.theme-dark {
+    --background-primary: #000000;
+    --background-secondary: #0a0a0a;
+    --background-secondary-alt: #121212;
+    --background-tertiary: #1a1a1a;
+    --background-accent: #2a2a2a;
+    --background-floating: #0f0f0f;
+}
+
+.container-1D34oG, .container-3w7J-x, .panels-j1Uci_ {
+    background-color: var(--background-primary);
+}
+
+.channelTextArea-rNsIhG {
+    background-color: var(--channeltextarea-background);
+}
+
+.message-2qnXI6 {
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.scrollableContainer-2NUZem {
+    background-color: var(--background-tertiary);
+}
+
+.members-1998pB {
+    background-color: var(--background-secondary);
+}
+
+.sidebar-2K8pFh {
+    background-color: var(--background-secondary);
+}
+
+.content-3YMskv {
+    background-color: var(--background-primary);
+}
+
+.header-2o-2hj {
+    background-color: var(--background-secondary);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.searchBar-3dMhjb {
+    background-color: var(--background-tertiary);
+}
+
+.button-1YfofB {
+    background-color: var(--background-tertiary);
+}
+
+.button-1YfofB:hover {
+    background-color: var(--background-secondary);
+}
+
+.role-2irmRk {
+    background-color: var(--background-tertiary);
+    border: 1px solid var(--interactive-normal);
+}
+
+.embedFull-2tM8-- {
+    border-left: 4px solid var(--interactive-active);
+    background-color: var(--background-secondary);
+}
+
+.reaction-1hd86g {
+    background-color: var(--background-tertiary);
+}
+
+.reaction-1hd86g:hover {
+    background-color: var(--background-secondary);
+}
